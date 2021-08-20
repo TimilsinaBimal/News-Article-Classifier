@@ -1,12 +1,13 @@
-1. Data into dataframe
-2. Cleaning
-	i. Remove Punctuations, numbers, and any other
-	ii.Tokenize
-	iii. Remove stopwords
-	iv. Word to vec
-3. EDA
-	i. Plot Graphs
-	ii. If necessary clean data more
-	iii. Try more visualizations and meaning of data
-4. Modeling
-	i. try different models
+To Run the project
+1. create virtual environment
+`python -m pipenv venv`
+
+2. Activate virtual environment
+	'venv/Scripts/activate'
+3. Run all dependencies:
+	pip install -r requirements.txt
+
+4. Go to src/api/
+5. RUN: (API)
+		`uvicorn main:app --reload`
+6. or predict by running make_prediction.py file
