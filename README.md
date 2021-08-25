@@ -1,6 +1,6 @@
 ## News Article Classifier
 Classify News Articles into different 14 categories.
-The data was taken from Kaggle which contained only title and categories so we Scraped that data to include article contents. The data can be found here:
+The data was taken from Kaggle which contained only title and categories so we Scraped that data to include article contents. The data can be found here: [News Article Category Dataset](https://www.kaggle.com/timilsinabimal/newsarticlecategories)
 
 ### DataSet
 The dataset contains mainly columns about, *category*, *title* and *body*. The category column contains the category the article, title contains the title of the article and body contains the contents of the article. There are total of 6877 data samples of 14 categories: ARTS & CULTURE, BUSINESS, COMEDY, CRIME, EDUCATION, ENTERTAINMENT, ENVIRONMENT, MEDIA, POLITICS, RELIGION, SCIENCE, SPORTS, TECH, WOMEN.
